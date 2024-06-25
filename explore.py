@@ -72,7 +72,7 @@ def copy_sampled_files(source_directory, sampled_files):
 
 if __name__ == "__main__":
     source_directory = "./2023/"  # Replace with your directory path
-    sample_size = 200
+    sample_size = 300
     
     num_files, sampled_files = count_and_sample_files(source_directory, sample_size)
     
